@@ -14,7 +14,7 @@
     </properties>
     
     <dependencies>        
-        <!-- GAE SDK dependency -->
+        <!-- GAE SDK dependency !!! IMPORTANT -->
         <dependency>
             <groupId>com.google.appengine</groupId>
             <artifactId>appengine-api-1.0-sdk</artifactId>
@@ -74,8 +74,16 @@
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
             <version>20190722</version>
+        </dependency>
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+            <type>jar</type>
         </dependency>       
     </dependencies>
+
     <build>
         <plugins>            
             <plugin>
