@@ -85,6 +85,7 @@
     </dependencies>
 
     <build>
+        <finalName>examplewebapp</finalName>
         <plugins>            
             <plugin>
                 <groupId>com.google.cloud.tools</groupId>
