@@ -1,0 +1,31 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="DRA-demo-app--braderson:war exploded">
+    <output-path>$PROJECT_DIR$/target/DRA-demo-app--braderson-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>DRA-demo-app--braderson</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="DRA-demo-app--braderson" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.65" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongo-java-driver:3.12.6" />
+          <element id="library" level="project" name="Maven: org.mongodb:mongodb-driver-core:3.12.6" />
+          <element id="library" level="project" name="Maven: org.mongodb:bson:3.12.6" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.json:json:20190722" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/DRA-demo-app--braderson-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="DRA-demo-app--braderson/web/Web" />
+    </root>
+  </artifact>
+</component>
